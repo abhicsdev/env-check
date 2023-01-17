@@ -9,7 +9,6 @@ let checkUser = (str) => {
 
 async function fun() {
   console.log(process.env);
-  
   console.log("abhin1509:: ", checkUser("abhin1509"));
   console.log("akki:: ", checkUser("akki"));
   console.log("ceejeey:: ", checkUser("ceejeey"));
