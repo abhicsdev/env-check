@@ -9,7 +9,7 @@ env:
   ADMINS: ${{ secrets.ADMINS }}
 
 jobs:
-  print log:
+  print-log:
     runs-on: ubuntu-latest
     container: node:16 
     steps:
