@@ -1,10 +1,16 @@
 let ADMINS = process.env.ADMINS;
 
 let checkUser = (str) => {
-  if(ADMINS.split(",").includes(str) === true) {
-    return true;
-  }
-  return false;
+  // if(ADMINS.split(",").includes(str) === true) {
+  //   return true;
+  // }
+  // return false;
+  for(let i=0; i<ADMINS.split(",").length; i++) {
+    if(ADMINS.split(",")[i] === str) {
+        return true;
+    }
+}
+return false;
 }
 
 async function fun() {
