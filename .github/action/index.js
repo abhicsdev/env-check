@@ -1,7 +1,7 @@
 let ADMINS = process.env.ADMINS;
 
 let checkUser = (str) => {
-  if(ADMINS.includes(str) === true) {
+  if(ADMINS.split(",").includes(str) === true) {
     return true;
   }
   return false;
