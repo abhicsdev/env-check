@@ -1,5 +1,7 @@
 let ADMINS = process.env.ADMINS;
 
+// abhin1509,ceejeey,sohamtamboli,akhilvc10,antstackio,stackw3
+
 let checkUser = (str) => {
   // if(ADMINS.split(",").includes(str) === true) {
   //   return true;
